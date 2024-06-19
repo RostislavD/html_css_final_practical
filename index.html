@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#111111" />
+    <title>Delizioso</title>
+    <link
+      rel="preload"
+      href="fonts/MullerRegular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer="defer" src="js/main.js"></script>
+  </head>
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+        <div class="container">
+          <div class="header__navigation">
+            <a href="./index.html" class="header__navigation-logo"
+              ><img src="./img/header-logo.svg" alt="logotype" class="logo" />
+              <span class="header__navigation-logo-name"
+                >Delizi<span class="orange">oso</span></span
+              ></a
+            >
+            <nav class="menu" data-menu>
+              <ul class="menu__list list-reset">
+                <li class="menu__item">
+                  <a href="#food-menu" class="menu__link" data-menu-item
+                    >Menu</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#reservation" class="menu__link" data-menu-item
+                    >Reservation</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <button
+              class="burger"
+              aria-label="Открыть меню"
+              aria-expanded="false"
+              data-burger
+            >
+              <img src="./img/header-burger.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="container">
+            <div class="hero__content">
+              <div class="hero__info">
+                <div class="hero__info-uppper">
+                  <span class="hero__info-uppper-text orange">Restauran</span>
+                </div>
+                <h1 class="hero__info-title">Italian Cuisine</h1>
+                <p class="hero__info-desk desk-p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sodales senectus dictum arcu sit tristique donec eget.
+                </p>
+                <a href="#reservation" class="hero__info-link">Reservation</a>
+              </div>
+              <div class="hero__img-container">
+                <img src="./img/hero-dish.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="welcome">
+          <div class="welcome__wrapper">
+            <div class="container">
+              <div class="welcome__content">
+                <div class="welcome__img-container">
+                  <img src="./img/welcome-dish.png" alt="" />
+                </div>
+                <div class="welcome__info">
+                  <h2 class="welcome__info-title title-h2">
+                    Welcome to<br /><span class="orange">delizioso</span>
+                  </h2>
+                  <p class="welcome__info-desk desk-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Facilisis ultricies at eleifend proin. Congue nibh nulla
+                    malesuada ultricies nec quam
+                  </p>
+                  <a href="#food-menu" class="hero__info-link">See our menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="food-menu" id="food-menu">
+          <div class="container">
+            <h2 class="food-menu__title title-h2">Our menu</h2>
+            <div class="food-menu__content">
+              <ul class="food-menu__list list-reset">
+                <li class="food-menu__item">
+                  <div class="food-menu__item-img-container">
+                    <img src="./img/food-menu-spaghetti.png" alt="" />
+                  </div>
+                  <span class="food-menu__item-name">Spaghetti</span>
+                  <div class="food-menu__item-rate">
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                  </div>
+                  <p class="food-menu__item-desk">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Egestas consequat mi eget auctor aliquam, diam.
+                  </p>
+                </li>
+                <li class="food-menu__item">
+                  <div class="food-menu__item-img-container">
+                    <img src="./img/food-menu-gnocchi.png" alt="" />
+                  </div>
+                  <span class="food-menu__item-name">Gnocchi</span>
+                  <div class="food-menu__item-rate">
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                  </div>
+                  <p class="food-menu__item-desk">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Egestas consequat mi eget auctor aliquam, diam.
+                  </p>
+                </li>
+                <li class="food-menu__item">
+                  <div class="food-menu__item-img-container">
+                    <img src="./img/food-menu-rovioli.png" alt="" />
+                  </div>
+                  <span class="food-menu__item-name">Rovioli</span>
+                  <div class="food-menu__item-rate">
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                  </div>
+                  <p class="food-menu__item-desk">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Egestas consequat mi eget auctor aliquam, diam.
+                  </p>
+                </li>
+                <li class="food-menu__item">
+                  <div class="food-menu__item-img-container">
+                    <img src="./img/food-menu-penne-alla-vodak.png" alt="" />
+                  </div>
+                  <span class="food-menu__item-name">Penne Alla Vodak</span>
+                  <div class="food-menu__item-rate">
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                  </div>
+                  <p class="food-menu__item-desk">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Egestas consequat mi eget auctor aliquam, diam.
+                  </p>
+                </li>
+                <li class="food-menu__item">
+                  <div class="food-menu__item-img-container">
+                    <img src="./img/food-menu-risoto.png" alt="" />
+                  </div>
+                  <span class="food-menu__item-name">Risoto</span>
+                  <div class="food-menu__item-rate">
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                  </div>
+                  <p class="food-menu__item-desk">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Egestas consequat mi eget auctor aliquam, diam.
+                  </p>
+                </li>
+                <li class="food-menu__item">
+                  <div class="food-menu__item-img-container">
+                    <img src="./img/food-menu-signature.png" alt="" />
+                  </div>
+                  <span class="food-menu__item-name">Signature</span>
+                  <div class="food-menu__item-rate">
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                    <img src="./img/food-menu-rating-star.svg" alt="" />
+                  </div>
+                  <p class="food-menu__item-desk">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Egestas consequat mi eget auctor aliquam, diam.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="reserve-now">
+          <div class="container">
+            <div class="reserve-now__content">
+              <div class="reserve-now__imgs">
+                <div class="reserve-now__imgs-center-img-container">
+                  <img
+                    class="reserve-now__imgs-center-img"
+                    src="./img/reserve-now-center.png"
+                    alt=""
+                  />
+                </div>
+                <div class="reserve-now__imgs-top-right-img-container">
+                  <img
+                    class="reserve-now__imgs-top-right-img"
+                    src="./img/reserve-now-top-right.png"
+                    alt=""
+                  />
+                </div>
+                <div class="reserve-now__imgs-bottom-left-img-container">
+                  <img
+                    class="reserve-now__imgs-bottom-left-img"
+                    src="./img/reserve-now-bottom-left.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="reserve-now__info">
+                <h2 class="reserve-now__info-title title-h2">
+                  Let's reserve<br /><span class="orange">a table</span>
+                </h2>
+                <p class="reserve-now__info-desk desk-p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisis ultricies at eleifend proin. Congue nibh nulla
+                  malesuada ultricies nec quam
+                </p>
+                <a href="#reservation" class="hero__info-link">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="chefs">
+          <div class="container">
+            <div class="chefs__content">
+              <h2 class="chefs__title title-h2">Our greatest chef</h2>
+              <ul class="chefs__list list-reset">
+                <li class="chefs__item">
+                  <div
+                    class="chefs__item-img-container"
+                    style="background-color: rgb(27, 22, 29, 0.2)"
+                  >
+                    <img src="./img/chefs-head-chef.png" alt="" />
+                  </div>
+                  <span class="chefs__item-name">Betran Komar</span>
+                  <span class="chefs__item-role">Head chef</span>
+                </li>
+                <li class="chefs__item">
+                  <div
+                    class="chefs__item-img-container"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(255, 138, 0, 0.2) 0%,
+                        rgba(255, 138, 0, 0.2) 100%
+                      );
+                    "
+                  >
+                    <img src="./img/chefs-chef-Sauwi.png" alt="" />
+                  </div>
+                  <span class="chefs__item-name">Ferry Sauwi</span>
+                  <span class="chefs__item-role">Chef</span>
+                </li>
+                <li class="chefs__item is-tablet">
+                  <div
+                    class="chefs__item-img-container"
+                    style="background-color: rgba(82, 144, 103, 0.2)"
+                  >
+                    <img src="./img/chefs-chef-Sauwi.png" alt="" />
+                  </div>
+                  <span class="chefs__item-name">Iswan Dracho</span>
+                  <span class="chefs__item-role">Chef</span>
+                </li>
+                <li class="chefs__item">
+                  <div
+                    class="chefs__item-img-container"
+                    style="background-color: rgba(157, 101, 66, 0.2)"
+                  >
+                    <img src="./img/chefs-chef-Dracho.png" alt="" />
+                  </div>
+                  <span class="chefs__item-name">Iswan Dracho</span>
+                  <span class="chefs__item-role">Chef</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__wrapper">
+            <div class="reviews__wrapper-circle-green">
+              <svg
+                width="98"
+                height="99"
+                viewBox="0 0 98 99"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="49"
+                  cy="49"
+                  r="49"
+                  transform="matrix(1 0 0 -1 0 98.5332)"
+                  fill="#CEEFC8"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-blue">
+              <svg
+                width="44"
+                height="45"
+                viewBox="0 0 44 45"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="22"
+                  transform="matrix(1 0 0 -1 0 44.5332)"
+                  fill="#3FBAFF"
+                  fill-opacity="0.1"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-orange">
+              <svg
+                width="66"
+                height="67"
+                viewBox="0 0 66 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="32.784"
+                  cy="32.784"
+                  r="32.784"
+                  transform="matrix(1 0 0 -1 0.216064 66.3174)"
+                  fill="#FF8A00"
+                  fill-opacity="0.51"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-light-orange">
+              <svg
+                width="44"
+                height="45"
+                viewBox="0 0 44 45"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  opacity="0.2"
+                  cx="22"
+                  cy="22"
+                  r="22"
+                  transform="matrix(1 0 0 -1 0 44.5332)"
+                  fill="#FF8A00"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-light-pink">
+              <svg
+                width="98"
+                height="99"
+                viewBox="0 0 98 99"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="49"
+                  cy="49"
+                  r="49"
+                  transform="matrix(1 0 0 -1 0 98.5332)"
+                  fill="#F56363"
+                  fill-opacity="0.1"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-pink">
+              <svg
+                width="57"
+                height="75"
+                viewBox="0 0 57 75"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="37"
+                  cy="37"
+                  r="37"
+                  transform="matrix(1 0 0 -1 0 74.5332)"
+                  fill="#F3A7FF"
+                  fill-opacity="0.53"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-orange-mobile">
+              <svg
+                width="54"
+                height="68"
+                viewBox="0 0 54 68"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  opacity="0.3"
+                  cx="34"
+                  cy="34"
+                  r="34"
+                  transform="matrix(1 0 0 -1 0 67.9966)"
+                  fill="#FF8A00"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-pink1-mobile">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="16"
+                  transform="matrix(1 0 0 -1 0 31.9966)"
+                  fill="#AC63F5"
+                  fill-opacity="0.1"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-blue1-mobile">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="8.98421"
+                  cy="8.98421"
+                  r="8.98421"
+                  transform="matrix(1 0 0 -1 0 17.9653)"
+                  fill="#3FBAFF"
+                  fill-opacity="0.1"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-blue2-mobile">
+              <svg
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="8.98421"
+                  cy="8.98421"
+                  r="8.98421"
+                  transform="matrix(1 0 0 -1 0.297119 18.3379)"
+                  fill="#3FBAFF"
+                  fill-opacity="0.1"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-light-pink-mobile">
+              <svg
+                width="41"
+                height="41"
+                viewBox="0 0 41 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="20.0103"
+                  cy="20.0103"
+                  r="20.0103"
+                  transform="matrix(1 0 0 -1 0.022583 40.1382)"
+                  fill="#F56363"
+                  fill-opacity="0.1"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-light-orange1-mobile">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  opacity="0.1"
+                  cx="10.5"
+                  cy="10.5"
+                  r="10.5"
+                  transform="matrix(1 0 0 -1 0 20.9956)"
+                  fill="#FF8A00"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-light-orange2-mobile">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  opacity="0.2"
+                  cx="8.98421"
+                  cy="8.98421"
+                  r="8.98421"
+                  transform="matrix(1 0 0 -1 0 17.9644)"
+                  fill="#FF8A00"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-pink-mobile">
+              <svg
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="15.1098"
+                  cy="15.1098"
+                  r="15.1098"
+                  transform="matrix(1 0 0 -1 0 30.2153)"
+                  fill="#F3A7FF"
+                  fill-opacity="0.53"
+                />
+              </svg>
+            </div>
+            <div class="reviews__wrapper-circle-light-blue-mobile">
+              <svg
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="15.1098"
+                  cy="15.1098"
+                  r="15.1098"
+                  transform="matrix(1 0 0 -1 0 30.2153)"
+                  fill="#A7C5FF"
+                  fill-opacity="0.25"
+                />
+              </svg>
+            </div>
+            <div class="container">
+              <div class="reviews__content">
+                <h2 class="reviews__title title-h2">Our customers say</h2>
+                <div class="reviews__img-container">
+                  <img src="./img/riviews-comment-Virgoun.png" alt="" />
+                </div>
+                <span class="reviews__name">Starla Virgoun</span>
+                <span class="reviews__role">Financial advisor</span>
+                <div class="reviews__comment">
+                  <p class="reviews__comment-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Facilisis ultricies at eleifend proin. Congue nibh nulla
+                    malesuada ultricies nec quam
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="timetable">
+          <div class="container">
+            <div class="timetable__content">
+              <div class="timetable__imgs-upper-mobile">
+                <img src="./img/timetable-upper-lines.svg" alt="" />
+              </div>
+              <div class="timetable__imgs-bottom-mobile">
+                <img src="./img/timetable-bottom-lines.svg" alt="" />
+              </div>
+              <div class="timetable__content-info">
+                <img
+                  class="timetable__content-info-img"
+                  src="./img/timatable-background.png"
+                  alt=""
+                />
+                <h3 class="timetable__content-info-title">we are open from</h3>
+                <span class="timetable__content-info-days">Monday-Sunday</span>
+                <ul class="timetable__content-info-list list-reset">
+                  <li class="timetable__content-info-item">
+                    <span class="timetable__content-info-item-name">Launch</span
+                    >:
+                    <span class="timetable__content-info-item-days"
+                      >Mon-Sun</span
+                    >:
+                    <span class="timetable__content-info-item-time"
+                      >11:00am-02:00pm</span
+                    >
+                  </li>
+                  <li class="timetable__content-info-item">
+                    <span class="timetable__content-info-item-name">Dinner</span
+                    >:
+                    <span class="timetable__content-info-item-days">sunday</span
+                    >:
+                    <span class="timetable__content-info-item-time"
+                      >04:00pm-08:00pm</span
+                    ><br /><span class="timetable__content-info-item-time"
+                      >04:00pm-09:00pm</span
+                    >
+                  </li>
+                </ul>
+                <a href="#reservation" class="hero__info-link">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="reservation">
+          <div class="container">
+            <div class="reservation__content">
+              <h2 class="reservation__title title-h2">Reservation</h2>
+              <form class="reservation__form" id="registrationForm">
+                <div class="reservation__form-content">
+                  <div class="reservation__form-content-inputs">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="First and Last name"
+                      required
+                    />
+                    <input type="date" id="date" name="date" required />
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="Phone"
+                      required
+                    />
+                    <input
+                      type="number"
+                      id="people"
+                      name="people"
+                      placeholder="Person count"
+                      required
+                      min="1"
+                    />
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="10"
+                      placeholder="Add a special request"
+                      required
+                    ></textarea>
+                  </div>
+                  <button class="reservation__btn btn-reset" type="submit">
+                    Submit
+                  </button>
+                </div>
+              </form>
+              <div id="message-box">RESERVATION HAS BEEN CONFIRMED</div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="container">
+            <div class="footer__content">
+              <ul class="footer__list list-reset">
+                <li class="footer__item">
+                  <a href="./index.html" class="header__navigation-logo"
+                    ><img
+                      src="./img/header-logo.svg"
+                      alt="logotype"
+                      class="logo"
+                    />
+                    <span class="header__navigation-logo-name"
+                      >Delizi<span class="orange">oso</span></span
+                    ></a
+                  >
+                  <p class="footer__text-sublogo">
+                    Viverra gravida morbi egestas facilisis tortor netus non
+                    duis tempor.
+                  </p>
+                  <div class="footer__item-social">
+                    <a href="" class="footer__item-link-img"
+                      ><img src="./img/twitter.png" alt="" /> </a
+                    ><a href="" class="footer__item-link-img"
+                      ><img src="./img/instagram.png" alt="" /> </a
+                    ><a href="" class="footer__item-link-img"
+                      ><img src="./img/facebook.png" alt=""
+                    /></a>
+                  </div>
+                </li>
+                <li class="footer__item">
+                  <h3 class="footer__item-title">Page</h3>
+                  <a class="footer__item-link" href="#food-menu">Menu</a>
+                  <a class="footer__item-link" href="#reservation"
+                    >Reservation</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <h3 class="footer__item-title">Get in touch</h3>
+                  <a class="footer__item-link" href="#"
+                    >3247 Johnson Ave, Bronx, NY 10463, Amerika Serikat</a
+                  >
+                  <a class="footer__item-link" href="mailto:delizioso@gmail.com"
+                    >delizioso@gmail.com</a
+                  >
+                  <a class="footer__item-link" href="tel:+12345678901"
+                    >+123 4567 8901</a
+                  >
+                </li>
+              </ul>
+              <span class="footer__copyright">Copyright ©️ 2022 Delizioso</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
